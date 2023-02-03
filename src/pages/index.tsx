@@ -1,6 +1,6 @@
-import Done from "@/components/Done";
-import InProgress from "@/components/InProgress";
-import Todo from "@/components/Todo";
+import Done from "@/components/container/Done";
+import InProgress from "@/components/container/InProgress";
+import Todo from "@/components/container/Todo";
 
 const Main = () => {
   return (
