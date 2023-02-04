@@ -1,4 +1,5 @@
 import wrapper from "@/store/store";
+import { GlobalStyle } from "@/styles/global.style";
 import type { AppProps } from "next/app";
 import { Provider } from "react-redux";
 
@@ -7,6 +8,7 @@ const App = ({ Component, ...rest }: AppProps) => {
   return (
     <>
       <Provider store={store}>
+        <GlobalStyle />
         <Component {...props.pageProps} />
       </Provider>
     </>
